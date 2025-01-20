@@ -1,0 +1,151 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.quick-sans {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-size: 10px;
+}
+
+/* Shared Style */
+.display-flex {
+  display: flex;
+}
+
+.orange {
+  color: orange;
+}
+
+.sky-blue {
+  color: skyblue;
+}
+
+.aqua {
+  color: #05d4df;
+}
+
+.purple {
+  color: #5d58ef;
+}
+
+.primary-btn {
+  width: 197px;
+  height: 50px;
+  border: none;
+  border-radius: 12px;
+  background-color: orange;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+/* Header */
+/* Styling of Nav Section */
+
+nav {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  /* gap: 186px; */
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 140px;
+  /* max-width: 1160px; */
+}
+
+nav a {
+  text-decoration: none;
+}
+nav span {
+  font-size: 2rem;
+}
+nav li {
+  list-style: none;
+}
+
+nav h2 > a {
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: black;
+}
+
+.logo-container {
+  gap: 11px;
+}
+
+.feature-container .features {
+  gap: 32px;
+}
+
+.fa-solid {
+  display: none;
+}
+
+
+/* Banner Styling */
+
+.banner{
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+    max-width: 640px;
+    text-align: left;
+}
+
+.banner-title, .banner-title>span{
+    font-size: 5.6rem;
+    font-weight: 700;
+
+}
+.banner-description{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+
+/* Curriculum styling */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  .feature-container {
+    display: none;
+  }
+  .primary-btn {
+    display: none;
+  }
+  nav h2 > a {
+    display: none;
+  }
+  .fa-solid,
+  .fa-bars {
+    display: block;
+    size: 30px;
+    text-align: center;
+  }
+  .container {
+    margin: 12px 16px;
+    height: 46px;
+    
+  }
+}
