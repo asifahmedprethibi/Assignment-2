@@ -143,7 +143,7 @@ nav h2 > a {
     grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
     align-items: center;
-    /* gap: 28px; */
+    gap: 28px;
 }
 
 .c-card{
@@ -209,12 +209,84 @@ nav h2 > a {
   }
 
 
-.arrow {
-    background: yellow;
+  .angle {
+    /* position: absolute; */
+    display: flex;
+    margin-top: 0 auto;
+    align-items: center;
+    align-items: middle;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 10px;
+    /* margin-bottom: 60px; */
+
+    /* left: 30px; */
+  }
+
+  .bracket {
+    /* position: relative; */
+    
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    border: 1px orange solid;
+    border-radius: 50px;
+    color: white;
+
+    
+  }
+
+
+/* Stories Styling */
+
+.stories {
+    max-width: 1440px;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+
 }
 
+.story {
+    justify-content: center;
+    gap: 18px;
+    max-width: 1160px;
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 80px;
+}
 
+.story-card-1{
+    display: flex;
+    flex-direction: column;
+    max-width: 530px;
+    min-height: 600px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 18px;
+}
 
+.story-card-2{
+    max-width: 530px;
+    max-height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+
+.story-card {
+    max-width: 290px;
+    max-height: 300px;
+    background-color: white;
+    border: 0 white solid;
+}
+
+.story-card > .c-title{
+    font-size: 1.5rem;
+}
 
 
 
