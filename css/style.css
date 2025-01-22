@@ -65,7 +65,7 @@
   color: white;
   font-size: 2rem;
   font-weight: 600;
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
 }
 
 .primary-btn:hover {
@@ -318,7 +318,7 @@ nav h2 > a {
   border: none;
   border-radius: 48px;
   transform: translate(38px, -24px);
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
 }
 
 .story-card-1 > .btn-sec:hover {
@@ -357,7 +357,7 @@ nav h2 > a {
   border: none;
   border-radius: 48px;
   transform: translate(38px, -24px);
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
 }
 .story-card > .btn-sec:hover {
   background: #b8de1d;
@@ -375,7 +375,7 @@ nav h2 > a {
   border: none;
   border-radius: 48px;
   transform: translate(38px, -24px);
-  transition: transform .5s ease;
+  transition: transform 0.5s ease;
 }
 
 .story-card > .btn-sec-2:hover {
@@ -578,6 +578,11 @@ footer {
     border-radius: 25px;
     transform: translate(16px, -12px);
   }
+
+  .story-card > .btn-sec:hover {
+    transform: scale(1.2) translate(16px, -12px);
+  }
+
   .story-card > .btn-sec-2 {
     color: #ffffff;
     background: #5d58f0;
@@ -588,6 +593,10 @@ footer {
     border: none;
     border-radius: 25px;
     transform: translate(16px, -12px);
+  }
+
+  .story-card > .btn-sec-2:hover {
+    transform: scale(1.2) translate(16px, -12px);
   }
 
   .story-card > .c-title {
